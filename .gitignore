@@ -1,0 +1,37 @@
+# Private databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Flutter generated files
+flutter_app/.dart_tool/
+flutter_app/build/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+
+# IDE and operating system files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.log
+*.tmp
+*.bak
+backend/static/*before*.html*
